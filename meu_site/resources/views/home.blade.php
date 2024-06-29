@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <header>Lar das Meninas</header>
     <nav>
         <ul>
+            <li class="text-lar-meninas">Lar das Meninas</li>
             <li><a href="{{ route('home') }}">Home</a></li>
             <li><a href="{{ route('projetos') }}">Projetos</a></li>
             <li><a href="{{ route('noticias') }}">Notícias</a></li>
