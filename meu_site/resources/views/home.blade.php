@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 </head>
 <body>
-    <header>Lar das Meninas</header>
+    <header>lar dos idosos</header>
     <nav>
         <ul>
             <li><a href="{{ route('home') }}">Home</a></li>
