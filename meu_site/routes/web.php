@@ -28,6 +28,6 @@ use App\Http\Controllers\ContatosController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/projetos', [ProjetosController::class, 'index'])->name('projetos');
 Route::get('/noticias', [NoticiasController::class, 'index'])->name('noticias');
-Route::get('/seja-um-voluntario', [VoluntariosController::class, 'index'])->name('voluntarios');
+Route::get('/voluntarios', [VoluntariosController::class, 'index'])->name('voluntarios');
 Route::get('/doacoes', [DoacoesController::class, 'index'])->name('doacoes');
 Route::get('/contatos', [ContatosController::class, 'index'])->name('contatos');
