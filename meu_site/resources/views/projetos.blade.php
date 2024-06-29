@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/projeto.css') }}">
     <title>Projetos</title>
 </head>
 <body>
+    <header>Lar das Meninas</header> 
     <nav>
         <ul>
             <li><a href="{{ route('home') }}">Home</a></li>
@@ -18,7 +19,16 @@
             <li><a href="{{ route('contatos') }}">Contatos</a></li>
         </ul>
     </nav>
-    <h1>Bem-vindo ao nosso site!</h1>
-    <p>Esta é a página inicial.</p>
+    <div class="projects-section">
+    <h2>Conheça alguns projetos que realizamos</h2>
+    <p>Projetos importantes para a comunidade</p>
+
+    <div class="project-item">
+        <img src="https://www.lardamenina.org.br/wp-content/uploads/2022/01/projeto-01.jpg" alt="Projeto">
+        <h3>Doação</h3>
+        <p>A sua doação é muito importante para nós mantermos a qualidade dos nossos serviços a todos que acolhemos. Entre em contato e saiba como ajudar.</p>
+        <a href="#">Leia mais</a>
+    </div>
+</div>
 </body>
 </html>

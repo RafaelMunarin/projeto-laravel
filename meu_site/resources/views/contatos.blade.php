@@ -8,6 +8,7 @@
     <title>Contatos</title>
 </head>
 <body>
+    <header>Lar das Meninas</header> 
     <nav>
         <ul>
             <li><a href="{{ route('home') }}">Home</a></li>

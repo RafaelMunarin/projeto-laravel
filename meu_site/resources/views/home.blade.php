@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 </head>
 <body>
     <header>Lar das Meninas</header> 
@@ -18,10 +18,13 @@
             <li><a href="{{ route('contatos') }}">Contatos</a></li>
         </ul>
     </nav>
-    <div class="container">
-        <h1>Bem-vindo ao nosso site!</h1>
-        <p>Esta é a página inicial.</p>
-    </div>
+    <div class="image-section">
+    <img src="https://www.lardamenina.org.br/wp-content/uploads/2022/02/home_ldm_slider1.jpg" alt="Instituto Lar da Menina" class="main-image">
+    <p class="intro-text">
+        Desde 1954 prestando serviço de acolhimento institucional para crianças e adolescentes.
+    </p>
+</div>
+
     <footer>
         © 2023 Lar das Meninas
     </footer>
